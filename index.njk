@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geffrey van der Bos</title>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <h1>Geffrey van der Bos</h1>
+            <p>Experience Designer | Bridging Tech and Humanity</p>
+        </section>
+
+        <section class="story">
+            <h2>My Story So Far</h2>
+            <p>My journey began with injecting custom CSS into Myspace pages, turning them a glorious black and red for 20 euros – a pivotal moment that sparked my passion for digital experiences. This led me to Stuttgart during my International Communications BA, where I honed my skills as a user experience designer. A few years later, seeking a change, my wife and I moved to the north of the Netherlands. There, I navigated roles as a Product Owner, first at an AI-focused company where I missed the visual, and then at Comecer Netherlands, driving innovation for radio-pharmacist software. Currently, I'm dedicated to designing and refining user experiences at Stichting NSR, a non-profit supporting those facing financial debt.</p>
+        </section>
+
+        <section class="what-i-do">
+            <h2>What I Do</h2>
+            <p>Experience Designer at Stichting NSR</p>
+            <p>Music Science Writer (Substack)</p>
+            <p>Freelance Music & Tech Consultant</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            {% for entry in experience %}
+            <div class="experience-entry">
+                <h3>{{ entry.title }}</h3>
+                <p>{{ entry.company }}</p>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section class="passions">
+            <h2>My Passions & Interests</h2>
+            <ul>
+                <li>Philosophizing about music and consumer technology</li>
+                <li>Avid Zettelkasten user</li>
+                <li>Deeply knowledgeable about extreme music genres and bands</li>
+                <li>Proud husband of a brilliant illustrator and owner of Loki, a master manipulator Shiba Inu 🐕</li>
+            </ul>
+        </section>
+
+        <section class="gear-software">
+            <h2>Gear & Software</h2>
+            {% for item in gear_software %}
+            <div class="gear-item">
+                {% if item.link %}
+                <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.item }}</a>
+                {% else %}
+                <span>{{ item.item }}</span>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+
+        <footer class="connect">
+            <p>Connect with me: <a href="YOUR_SUBSTACK_LINK_HERE">Substack</a> | <a href="YOUR_LINKEDIN_LINK_HERE">LinkedIn</a></p>
+        </footer>
+    </main>
+</body>
+</html> 
