@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geffrey van der Bos</title>
+    <link rel="stylesheet" href="css/output.css">
 </head>
 <body>
     <main>
@@ -46,15 +47,17 @@
 
         <section class="gear-software">
             <h2>Gear & Software</h2>
-            {% for item in gear_software %}
-            <div class="gear-item">
-                {% if item.link %}
-                <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.item }}</a>
-                {% else %}
-                <span>{{ item.item }}</span>
-                {% endif %}
+            <div class="gear-list">
+                {% for item in gear_software %}
+                <div class="gear-item">
+                    {% if item.link %}
+                    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.item }}</a>
+                    {% else %}
+                    <span>{{ item.item }}</span>
+                    {% endif %}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </section>
 
         <footer class="connect">
