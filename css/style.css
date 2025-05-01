@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Switzer';
-  src: url('/fonts/Switzer-Variable.woff2') format('woff2'),
-       url('/fonts/Switzer-VariableItalic.woff') format('woff');
+  src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
+       url('../fonts/Switzer-Variable.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,6 +16,9 @@ body {
   font-size: 15px;
   line-height: 1.4;
   background-color: hsl(var(--color-background-hsl));
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main {
@@ -25,7 +28,6 @@ main {
 .content {
   padding: 10vh 3rem 10vh 2rem;
   margin: 0 auto;
-  letter-spacing: -0.016px;
   min-height: 100vh;
   max-width: 500px;
 }
@@ -64,4 +66,10 @@ main {
     hsla(var(--color-background-hsl), 0) 0%,
     hsla(var(--color-background-hsl), 1) 100%
   );
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
 }

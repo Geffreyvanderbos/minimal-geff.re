@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   // Copy static assets directly to output
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("fonts");
 
   // Create a collection for the markdown file
   eleventyConfig.addCollection("content", function(collectionApi) {
