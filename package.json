@@ -5,19 +5,13 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "css:watch": "tailwindcss -i ./css/style.css -o ./css/output.css --watch",
-    "css:build": "tailwindcss -i ./css/style.css -o ./css/output.css --minify",
-    "dev": "concurrently \"npm run start\" \"npm run css:watch\"",
-    "prod": "npm run css:build && npm run build"
+    "dev": "concurrently \"npm run start\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "autoprefixer": "^10.4.17",
-    "concurrently": "^8.2.2",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1"
+    "concurrently": "^8.2.2"
   }
 }

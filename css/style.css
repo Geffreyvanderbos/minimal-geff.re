@@ -1,16 +1,67 @@
 @font-face {
   font-family: 'Switzer';
-  src: url('/fonts/Switzer-Variable.woff2') format('woff2');
-  font-weight: 100 900;
-  font-display: swap;
+  src: url('/fonts/Switzer-Variable.woff2') format('woff2'),
+       url('/fonts/Switzer-VariableItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  --color-background-hsl: 0, 0%, 98%;
+}
 
-@layer base {
-  h1, h2, h3, h4 {
-    font-weight: 600;
+body {
+  margin: 0;
+  font-family: 'Switzer', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  background-color: hsl(var(--color-background-hsl));
+}
+
+main {
+  min-height: 100vh;
+}
+
+.content {
+  padding: 10vh 3rem 10vh 2rem;
+  margin: 0 auto;
+  letter-spacing: -0.016px;
+  min-height: 100vh;
+  max-width: 500px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+}
+
+.bottom-fade, .top-fade {
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  left: 0;
+  pointer-events: none;
+}
+
+.bottom-fade {
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    hsla(var(--color-background-hsl), 0) 0%,
+    hsla(var(--color-background-hsl), 1) 100%
+  );
+}
+
+.top-fade {
+  top: 0;
+  background: linear-gradient(
+    to top,
+    hsla(var(--color-background-hsl), 0) 0%,
+    hsla(var(--color-background-hsl), 1) 100%
+  );
 }

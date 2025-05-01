@@ -3,6 +3,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
 
+  // Create a collection for the markdown file
+  eleventyConfig.addCollection("content", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("./content.md");
+  });
+
   return {
     dir: {
       input: ".",
@@ -16,4 +21,4 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"
   };
-}; 
+};
