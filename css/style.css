@@ -6,8 +6,62 @@
   font-style: normal;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
+@media not (prefers-reduced-motion: reduce) {
+	main { view-transition-name: blur }
+}
+
+::view-transition-old(blur),
+::view-transition-new(blur) {
+  will-change: opacity, filter;
+  transform: translateZ(0);
+}
+
+::view-transition-old(blur) {
+  animation: fade-out .6s cubic-bezier(0, 0.55, 0.45, 1) forwards;
+}
+
+/* New stuff coming in */
+::view-transition-new(blur) {
+  animation: fade-in .6s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+  opacity: 0;
+  filter: blur(8px);
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    filter: blur(8px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
 :root {
   --color-background-hsl: 0, 0%, 98%;
+  --color-text-hsl: 0, 0%, 8%;
 }
 
 body {
@@ -16,16 +70,14 @@ body {
   font-size: 15px;
   line-height: 1.4;
   background-color: hsl(var(--color-background-hsl));
-  color: #1a1a1a;
+  color: hsl(var(--color-text-hsl));
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 main {
   min-height: 100vh;
-}
-
-.content {
   padding: 10vh 3rem 10vh 2rem;
   margin: 0 auto;
   min-height: 100vh;
@@ -33,7 +85,7 @@ main {
 }
 
 @media (min-width: 768px) {
-  .content {
+  main {
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -72,4 +124,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: 600;
   font-size: 1rem;
+}
+
+a, a:hover, a:visited {
+  color: hsl(var(--color-text-hsl));
 }
