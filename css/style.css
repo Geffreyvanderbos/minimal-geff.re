@@ -6,12 +6,197 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Switzer';
+  src: url('../fonts/Switzer-VariableItalic.woff2') format('woff2'),
+       url('../fonts/Switzer-VariableItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --color-background-hsl: 0, 0%, 98%;
+  --color-text-hsl: 0, 0%, 20%;
+  --color-text-rgb: 20, 20, 20;
+  --paragraph-bottom-margin: 1.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background-hsl: 0, 0%, 10%;
+    --color-text-hsl: 0, 0%, 90%;
+    --color-text-rgb: 229, 229, 229;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Switzer', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: hsl(var(--color-background-hsl));
+  color: hsl(var(--color-text-hsl));
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  width: 90px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: .5rem;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-top: 2vh;
+  }
+}
+
+main {
+  min-height: 100vh;
+  padding: 14vh 1.25rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 500px;
+}
+
+main::after, main::before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  left: 0;
+  pointer-events: none;
+}
+
+main::before {
+  top: 0;
+  background: linear-gradient(
+    to top,
+    hsla(var(--color-background-hsl), 0) 0%,
+    hsla(var(--color-background-hsl), 1) 100%
+  );
+}
+
+main::after {
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    hsla(var(--color-background-hsl), 0) 0%,
+    hsla(var(--color-background-hsl), 1) 100%
+  );
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: var(--paragraph-bottom-margin);
+}
+
+hr {
+  width: 100%;
+  margin: 2rem auto 1rem 0;
+  border: none;
+  border-top: 1px solid hsla(var(--color-text-hsl), .1);
+}
+
+p + hr {
+  margin: calc(2rem - var(--paragraph-bottom-margin)) auto 1rem 0;
+}
+
+ul {
+  padding-inline-start: 1.5rem;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 .5rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+}
+
+blockquote {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+blockquote p {
+  text-indent: -0.45em; 
+  font-style: italic;
+  color: hsla(var(--color-text-hsl), 0.6);
+}
+@​supports (hanging-punctuation: first) {
+  blockquote p {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
+}
+
+blockquote p::before {
+    content: open-quote;
+}
+blockquote p::after {
+    content: close-quote;
+}
+
+
+a, a:hover, a:visited {
+  color: hsl(var(--color-text-hsl));
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-thickness: .5px;
+  text-decoration-color: hsla(var(--color-text-hsl), .4);
+  text-underline-offset: 4px;
+  transition: text-decoration 0.164s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+a:hover {
+  text-decoration-color: hsla(var(--color-text-hsl), .9);
+}
+
+a[href^="http"]:not([href*="geff.re"])::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M13 5H19V11"/%3E%3Cpath d="M19 5L5 19"/%3E%3C/svg%3E') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+a:active:not(.logo) {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+  a[href^="http"]:not([href*="geff.re"])::after {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M13 5H19V11"/%3E%3Cpath d="M19 5L5 19"/%3E%3C/svg%3E') no-repeat center;
+  }
+}
+
 @view-transition {
   navigation: auto;
 }
 
 @media not (prefers-reduced-motion: reduce) {
-	main { view-transition-name: blur }
+	body { view-transition-name: blur }
 }
 
 ::view-transition-old(blur),
@@ -24,11 +209,10 @@
   animation: fade-out .6s cubic-bezier(0, 0.55, 0.45, 1) forwards;
 }
 
-/* New stuff coming in */
 ::view-transition-new(blur) {
   animation: fade-in .6s cubic-bezier(0.76, 0, 0.24, 1) forwards;
   opacity: 0;
-  filter: blur(8px);
+  filter: blur(4px);
 }
 
 @keyframes fade-out {
@@ -41,14 +225,14 @@
   }
   100% {
     opacity: 0;
-    filter: blur(8px);
+    filter: blur(4px);
   }
 }
 
 @keyframes fade-in {
   0% {
     opacity: 0;
-    filter: blur(8px);
+    filter: blur(4px);
   }
   60% {
     opacity: 1;
@@ -57,75 +241,4 @@
     opacity: 1;
     filter: blur(0);
   }
-}
-
-:root {
-  --color-background-hsl: 0, 0%, 98%;
-  --color-text-hsl: 0, 0%, 8%;
-}
-
-body {
-  margin: 0;
-  font-family: 'Switzer', system-ui, sans-serif;
-  font-size: 15px;
-  line-height: 1.4;
-  background-color: hsl(var(--color-background-hsl));
-  color: hsl(var(--color-text-hsl));
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-main {
-  min-height: 100vh;
-  padding: 10vh 3rem 10vh 2rem;
-  margin: 0 auto;
-  min-height: 100vh;
-  max-width: 500px;
-}
-
-@media (min-width: 768px) {
-  main {
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-.bottom-fade, .top-fade {
-  display: block;
-  width: 100vw;
-  height: 10vh;
-  position: fixed;
-  left: 0;
-  pointer-events: none;
-}
-
-.bottom-fade {
-  bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    hsla(var(--color-background-hsl), 0) 0%,
-    hsla(var(--color-background-hsl), 1) 100%
-  );
-}
-
-.top-fade {
-  top: 0;
-  background: linear-gradient(
-    to top,
-    hsla(var(--color-background-hsl), 0) 0%,
-    hsla(var(--color-background-hsl), 1) 100%
-  );
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-a, a:hover, a:visited {
-  color: hsl(var(--color-text-hsl));
 }

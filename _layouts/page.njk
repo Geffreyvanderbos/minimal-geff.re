@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
+    <a class="logo" href="/">
+        {% include "black-metal-logo-geffrey.svg" %}
+    </a>
     <main>
-          {{ content | safe }}
+        {{ content | safe }}
     </main>
-    <div class="top-fade"></div>
-    <div class="bottom-fade"></div>
 </body>
 </html>

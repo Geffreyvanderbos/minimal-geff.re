@@ -1,14 +1,14 @@
 ---
-title: Homepage Geffrey van der Bos
+title: Homepage
 layout: page 
 ---
 
-I'm a product designer, music enthusiast, and digital Zettelkasten practitioner.
+# Geffrey van der Bos
 
-I've started writing about music science on Substack.
+Product designer, music science writer, and practitioner of [linked note-taking](/notetaking/).
 
-My previous microblog broke and I lack the technical expertise to make it work again.
+Currently designing for Stichting NSR. Previously, held the role of product owner for Comecer. Find [my resume here](/resume/).
 
-Perhaps it's better this way.
+I spend my spare time learning about music science and sharing my findings on [Substack](https://geffrey.substack.com).
 
-[Single Page](/page/)
+These past months I've been focused on becoming a better writer.

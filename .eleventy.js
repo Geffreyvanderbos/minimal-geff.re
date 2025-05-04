@@ -9,6 +9,22 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("./content.md");
   });
 
+  // Create a collection for pages with frontmatter
+  eleventyConfig.addCollection("pages", function(collectionApi) {
+    return collectionApi.getAll()
+      .filter(item => item.data.inNav == true && item.url !== '/')
+      .sort((a, b) => (a.data.title || '').localeCompare(b.data.title || ''));
+  });
+
+  // Add shortcode for displaying pages
+  eleventyConfig.addShortcode("pages", function(collections, page) {
+    const pages = collections.pages;
+    return pages
+      .filter(p => p.url !== page.url)  // Exclude current page
+      .map(p => `- [${p.data.title}](${p.url})`)
+      .join('\n\n');
+  });
+
   return {
     dir: {
       input: ".",
