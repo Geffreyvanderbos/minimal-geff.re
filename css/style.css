@@ -19,6 +19,12 @@
   --color-text-hsl: 0, 0%, 20%;
   --color-text-rgb: 20, 20, 20;
   --paragraph-bottom-margin: 1.25rem;
+  --baseline: 1.6rem;
+}
+
+::selection {
+  background-color: hsla(var(--color-text-hsl), 0.99);
+  color: hsl(var(--color-background-hsl));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,44 +37,53 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Switzer', system-ui, sans-serif;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: var(--baseline);
   background-color: hsl(var(--color-background-hsl));
   color: hsl(var(--color-text-hsl));
+  /* transform: translateZ(0); */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
+
+/* Basic baseline grid */
+/* body {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 221, 0.4) 1px, transparent 0);
+  background-size: 100% var(--baseline);
+} */
+/* End baseline grid */
 
 .logo {
   width: 90px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: .5rem;
   z-index: 1;
 }
 
 @media (min-width: 768px) {
   .logo {
-    margin-top: 2vh;
+    margin-top: calc(2 * var(--baseline));
   }
 }
 
 main {
   min-height: 100vh;
-  padding: 14vh 1.25rem;
+  padding: calc(4 * var(--baseline)) var(--baseline);
   margin: 0 auto;
-  min-height: 100vh;
-  max-width: 500px;
+  max-width: 38em;
+  max-width: 66ch;
 }
 
 main::after, main::before {
   content: '';
   display: block;
   width: 100vw;
-  height: 10vh;
+  height: calc(3 * var(--baseline));
   position: fixed;
   left: 0;
   pointer-events: none;
@@ -93,51 +108,59 @@ main::after {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: var(--paragraph-bottom-margin);
+  margin: 0;
+}
+
+p + p {
+  margin-top: var(--baseline);
 }
 
 hr {
   width: 100%;
-  margin: 2rem auto 1rem 0;
   border: none;
   border-top: 1px solid hsla(var(--color-text-hsl), .1);
+  margin: calc(var(--baseline) - 1px) 0 var(--baseline) 0;
+  transform: translateY(0.5px);
 }
 
-p + hr {
-  margin: calc(2rem - var(--paragraph-bottom-margin)) auto 1rem 0;
+ol, ul {
+  margin: calc(var(--baseline) / 2) 0;
 }
 
 ul {
   padding-inline-start: 1.5rem;
 }
 
-ul li:not(:last-child) {
-  margin-bottom: .5rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 .5rem 0;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
+  margin: 0;
+  padding-top: calc(1.5 * var(--baseline));
+  padding-bottom: calc(0.5 * var(--baseline));
 }
 
-h2, h3, h4, h5, h6 {
-  margin-top: 2rem;
+h1 + h2 {
+  margin-top: var(--baseline);
 }
 
 blockquote {
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote + p {
+  margin-top: var(--baseline);
 }
 
 blockquote p {
   text-indent: -0.45em; 
   font-style: italic;
   color: hsla(var(--color-text-hsl), 0.6);
+  margin: 0;
+  padding: 0;
+  line-height: var(--baseline);
 }
+
 @​supports (hanging-punctuation: first) {
   blockquote p {
     text-indent: 0;
@@ -151,7 +174,6 @@ blockquote p::before {
 blockquote p::after {
     content: close-quote;
 }
-
 
 a, a:hover, a:visited {
   color: hsl(var(--color-text-hsl));

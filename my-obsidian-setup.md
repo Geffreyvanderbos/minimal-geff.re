@@ -1,7 +1,7 @@
 ---
-title: My Obsidian setup and research workflow
+title: My research workflow
 layout: page
-inNav: true
+inNav: false
 ---
 
 Here's how I set-up my Obsidian.
