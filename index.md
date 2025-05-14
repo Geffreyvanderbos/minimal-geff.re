@@ -1,6 +1,6 @@
 ---
-title: Homepage
-layout: page 
+title: Geffrey van der Bos
+layout: page
 ---
 
 # Geffrey van der Bos
@@ -12,9 +12,3 @@ Currently designing for Stichting NSR. Previously, held the role of product owne
 I spend my spare time learning about music science and sharing my findings on [Substack](https://geffrey.substack.com).
 
 These past months I've been focused on becoming a better writer.
-
-{% if collections.pages.length > 0 %}
-## Some musings
-Although I write about music science on Substack, I also occassionally publish here.
-{% pages collections, page %}
-{% endif %}

@@ -1,6 +1,6 @@
 ---
-title: Resume
-layout: page 
+title: Testimonials
+layout: page
 ---
 
 # Testimonials
