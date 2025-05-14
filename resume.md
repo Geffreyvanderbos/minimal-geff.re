@@ -1,6 +1,6 @@
 ---
 title: Resume
-layout: page 
+layout: page
 ---
 
 # Resume of Geffrey van der Bos
@@ -14,6 +14,9 @@ Design and enhance the experiences of the recipients of this nonprofit organizat
 Comecer ∙ Nov 2022 - May 2024
 
 Refining existing software and guiding the development of a new, user-centered platform tailored for radiopharmacies
+
+→ [See portfolio item](/portfolio/smartlab/)
+
 ***
 **Product Owner**<br>
 Kaios.ai ∙ Sep 2021 - Nov 2022
@@ -47,6 +50,8 @@ Universiteit Leiden ∙ Jan 2024
 Berklee College of Music ∙ Jul 2023
 
 ***
+
+→ [See portfolio](/portfolio/smartlab/)
 
 The past years I have worked with excellent colleagues who have taught me a lot. I am thankful for all of them.
 

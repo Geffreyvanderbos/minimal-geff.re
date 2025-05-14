@@ -3,7 +3,8 @@ title: Making construction measurement management digital
 layout: page
 ---
 
-![Construction Company project](/images/case-study-construction-ui.jpg)
+<img src="/images/case-study-construction-ui.jpg" class="image-transition-2" alt="Construction Company project">
+
 
 # Making construction measurement management digital
 

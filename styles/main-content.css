@@ -16,6 +16,7 @@ main::before {
     z-index: 2;
     left: 0;
     pointer-events: none;
+    view-transition-name: none;
 }
 
 main::before {
@@ -56,4 +57,24 @@ main img:not(.transparent) {
 
 main p:first-child img {
     margin-top: calc(3 * var(--baseline));
+}
+
+.image-transition-1 {
+    view-transition-name: image-1;
+}
+
+.image-transition-2 {
+    view-transition-name: image-2;
+}
+
+.image-transition-3 {
+    view-transition-name: image-3;
+}
+
+::view-transition-image-pair(image-1),
+::view-transition-image-pair(image-2),
+::view-transition-image-pair(image-3) {
+    isolation: auto;
+    transition-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+    transition-duration: 0.6s;
 }
