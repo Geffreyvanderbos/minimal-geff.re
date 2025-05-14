@@ -6,15 +6,16 @@
     <meta name="color-scheme" content="light dark">
     <title>{{ title }}</title>
      <meta name="description" content="Product designer and music science writer.">
-    <link rel="stylesheet" href="{{ '/style.css' | url }}">
-    <link rel="icon" href="{{ 'images/favicon.png' | url }}">
+    <link rel="stylesheet" href="{{ '/styles/index.css' | url }}">
+    <link rel="icon" href="{{ '/images/favicon.png' | url }}">
 </head>
 <body>
     <a class="logo" href="/">
         {% include "black-metal-logo-geffrey.svg" %}
     </a>
-    <main>
+    <main id="content">
         {{ content | safe }}
     </main>
+
 </body>
 </html>
