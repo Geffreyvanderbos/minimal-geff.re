@@ -51,8 +51,6 @@ Berklee College of Music ∙ Jul 2023
 
 ***
 
-→ [See portfolio](/portfolio/)
+→ [See product portfolio](/portfolio/)
 
-The past years I have worked with excellent colleagues who have taught me a lot. I am thankful for all of them.
-
-[Here is what they say about working with me](/testimonials/).
+[Here is what colleagues say about working with me](/testimonials/).

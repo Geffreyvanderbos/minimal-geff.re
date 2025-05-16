@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1rem;
     margin: 0;
     padding-top: calc(1.5 * var(--baseline));
@@ -37,6 +37,7 @@ h1 + h2 {
 
 p {
     margin: 0;
+    letter-spacing: -0.003rem;
 }
 
 p + p {
@@ -92,7 +93,7 @@ a:hover {
     text-decoration-color: hsla(var(--color-text-hsl), 0.9);
 }
 
-a[href^="http"]:not([href*="geff.re"]):not(.lightbox)::after {
+a[href^="http"]:not([href*="geff.re"])::after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -122,7 +123,8 @@ s {
 }
 
 @media (prefers-color-scheme: dark) {
-    a[href^="http"]:not([href*="geff.re"]):not(.lightbox)::after {
+    :root:not([data-theme="light"])
+        a[href^="http"]:not([href*="geff.re"])::after {
         background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M13 5H19V11"/%3E%3Cpath d="M19 5L5 19"/%3E%3C/svg%3E')
             no-repeat center;
     }

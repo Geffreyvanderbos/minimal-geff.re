@@ -4,9 +4,7 @@
     --color-text-rgb: 20, 20, 20;
     --paragraph-bottom-margin: 1.25rem;
     --baseline: 1.6rem;
-    --font-family:
-        "Switzer", Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
-        Arial, sans-serif;
+    --font-family: system-ui, sans-serif;
 
     --shadow-color: 0deg 0% 0%;
     --shadow-elevation-low:
@@ -26,24 +24,6 @@
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
-}
-
-@font-face {
-    font-family: "Switzer";
-    src:
-        url("../fonts/Switzer-Variable.woff2") format("woff2"),
-        url("../fonts/Switzer-Variable.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Switzer";
-    src:
-        url("../fonts/Switzer-VariableItalic.woff2") format("woff2"),
-        url("../fonts/Switzer-VariableItalic.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {
