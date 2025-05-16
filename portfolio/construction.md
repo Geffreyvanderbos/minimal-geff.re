@@ -3,7 +3,7 @@ title: Making construction measurement management digital
 layout: page
 ---
 
-<img src="/images/case-study-construction-ui.jpg" class="image-transition-2" alt="Construction Company project">
+<img src="/images/case-study-construction-ui.jpg" class="image-transition-2" alt="A tablet displays a construction plan or blueprint with detailed annotations and measurements. The interface uses a clean, technical aesthetic with a light background and blue accents to highlight key areas and dimensions. The layout is organized with clear labels and a sidebar provides additional tools or information.">
 
 
 # Making construction measurement management digital
@@ -13,37 +13,36 @@ Role: Lead Designer<br>
 Date: 2019 - 2021
 
 ***
-As the lead designer for the [Construction Corporation] project, I focused on enhancing the efficiency of measuring and producing frames, doors, and gates for large construction projects. The project aimed to revolutionize traditional methods used in site measurements and architectural plan management.
+Led design for [Construction Corporation]'s digital transformation of on-site measurement and architectural plan management.
 
-## The challenge
-Key challenges included:
-- Adapting to the physical demands of construction sites, with tools and processes suitable for workers in gloves and waterproof gear.
-- Developing a system for efficient on-site measurements and real-time architectural plan updates.
-- Improving communication between construction teams and architects, traditionally hampered by disjointed email and phone interactions.
+Goal: Replace slow, traditional paper-based methods.
 
-<img src="/images/case-study-construction-3.png" class="transparent" alt="Construction Company project" />
+## Key challenges
+* Tough on-site conditions (gloves, weather).
+* Low-effort measurement and real-time plan updates needed.
+* Poor communication between site and architects.
 
-<img src="/images/case-study-construction-2.png" class="transparent" alt="Construction Company project" />
+<img src="/images/case-study-construction-3.png" class="transparent" alt="A tablet displays a construction plan comparison interface, overlaying different revisions of a blueprint. The left side shows the main plan with blue highlights and annotations, while a semi-transparent panel on the right allows for comparing various revisions (e.g., '5 hours ago,' '4 hours ago'). The interface is clean and technical, with a focus on precision and detail." />
 
-## My role and contributions
-My key responsibilities were:
-- Conducted extensive user research at various construction sites.
-- Designed user interfaces for both the iPad application and the web application, focusing on usability in challenging site conditions.
-- Managed stakeholder communications, ensuring the project aligned with user needs and business objectives.
+<img src="/images/case-study-construction-2.png" class="transparent" alt="A tablet displays a data input form, likely for specifying dimensions or properties in a construction or architectural context. The interface features clearly labeled fields for measurements like 'Breite' (width), 'Höhe' (height), and 'Wandstärke' (wall thickness), along with corresponding input fields and toggle switches. A digital keyboard is visible at the bottom of the screen, ready for user input. A small floor plan is visible on the left, providing visual context." />
 
-<img src="/images/case-study-construction-1.png" class="transparent" alt="Construction Company project" />
+## My contributions
+* Extensive user research loop, on and off construction sites.
+* Designed iPad and web apps for usability in various environments.
+* Managed communication flow between teams.
+
+<img src="/images/case-study-construction-1.png" class="transparent" alt="A tablet displays a construction plan or blueprint with detailed annotations and measurements. The interface uses a clean, technical aesthetic with a light background and blue accents to highlight key areas and dimensions. The layout is organized with clear labels, and a sidebar provides additional tools or information." />
 
 ## The solution
-Highlights of the platform.
-- iPad Application: Designed for use with gloves, featuring Bluetooth connectivity for measurement tools and with that reducing neccessary interaction.
-- Architect's Tool: An web-based application for uploading plans, planning routes, and streamlining feedback between architects and construction teams.
+* **iPad App:** Glove-friendly, Bluetooth connection to measurement tools (less interaction).
+* **Web Platform:** Plan uploads, route planning, and direct feedback.
 
-<img src="/images/case-study-construction-desktop.jpg" alt="Construction Company project" />
+<img src="/images/case-study-construction-desktop.jpg" alt="A laptop displays a modern messaging client interface with a construction-related conversation open. The main message pane shows a blueprint or floor plan preview. The interface features a clean and organized layout, common in contemporary messaging applications, with a sidebar for contacts or channels and a clear message window." />
 
-## A truly enriching experience
-The project significantly improved measurement speed per project and streamlined communication between construction teams and architects. User feedback praised the system's efficiency and ease of use, marking a significant advancement over traditional methods.
+## Results
+Faster measurement times. Improved communication between site and architects. Positive user feedback on ease of use and efficiency.
 
-<img src="/images/matthias-nagel-geffrey-bos.jpg" alt="Construction Company project" />
+<img src="/images/matthias-nagel-geffrey-bos.jpg" alt="A selfie of two visitors, Matthias Nagel and Geffrey van der Bos, wearing white hard hats and yellow safety vests, smiling in front of a construction site. The background shows ongoing construction with buildings and equipment, suggesting they are observing the site." />
 
 ***
 - [Smartlab — Next-Generation Radiopharmacy Workflow Management](/portfolio/smartlab/)

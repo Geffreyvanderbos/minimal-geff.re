@@ -51,7 +51,7 @@ Berklee College of Music ∙ Jul 2023
 
 ***
 
-→ [See portfolio](/portfolio/smartlab/)
+→ [See portfolio](/portfolio/)
 
 The past years I have worked with excellent colleagues who have taught me a lot. I am thankful for all of them.
 

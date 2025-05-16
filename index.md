@@ -9,7 +9,7 @@ Product designer, music science writer, and practitioner of [linked note-taking]
 
 Currently designing for Stichting NSR. Previously, held the role of product owner for Comecer. Find [my resume here](/resume).
 
-See my [portfolio](/portfolio) for projects I'm proud of.
+See my [portfolio](/portfolio) for projects I've worked on.
 
 I spend my spare time learning about music science and sharing my findings on [Substack](https://geffrey.substack.com).
 
@@ -17,3 +17,5 @@ These past months I've been focused on becoming a better writer.
 
 ***
 [What happened to the previous website?](/longevity)
+
+Switch site to <a href="#" class="toggle-theme" data-dark-text="light mode">dark mode</a>.

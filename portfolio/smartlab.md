@@ -3,47 +3,47 @@ title: Next-Generation Radiopharmacy Workflow Management
 layout: page
 ---
 
-<img src="/images/case-study-smartlab-ui.jpg" class="image-transition-1" alt="Construction Company project">
+<img src="/images/case-study-smartlab-ui.jpg" class="image-transition-1" alt="Clean and modern tablet interface displaying a radiopharmaceutical dose preparation screen with a clear layout, utilizing a light color palette with purple accents. Key information like activity and patient details are prominently displayed with legible typography.">
 
-# Next-Generation Radiopharmacy Workflow Management
+# Smartlab: Efficient Radiopharmacy Workflow
 
 Company: Comecer Netherlands<br>
 Role: Product Owner / Designer<br>
 Date: 2022 - 2024
 ***
 
-In my role as Product Owner/Designer for the Smartlab project, I directed the development to advance radio-pharmaceutical management in nuclear medicine. This project challenges the norms of digital and hardware integration in a highly specialized field.
+Directed development of advanced radio-pharmaceutical management in nuclear medicine, integrating digital and hardware in a specialized field.
 
-## The Challenge
-The project faces several unique challenges:
-- Tailoring the experience to suit various settings, from large production lines to small clinics. Each with distinct operational needs.
-- Navigating complex health and safety regulations to ensure compliance while maintaining user-centric design.
-- Bridging digital interfaces with existing radiopharmacy hardware, demanding a blend of software and hardware know-how.
+## Challenge
 
-<img src="/images/case-study-smartlab-1.png" class="transparent" alt="Construction Company project" />
+* Adapt to diverse settings (large production to small clinics).
+* Meet complex health and safety regulations while ensuring usability.
+* Integrate digital interfaces with existing hardware.
 
-<img src="/images/case-study-smartlab-2.png" class="transparent" alt="Construction Company project" />
+<img src="/images/case-study-smartlab-1.png" class="transparent" alt="A minimalist tablet screen displaying a large, central reading from a left calibrator. The interface uses a clean and segmented design to present isotope and geometry selection options below the primary measurement." />
 
-## My Role and Contributions
-As Product Owner/Designer, my role encompassed:
+<img src="/images/case-study-smartlab-2.png" class="transparent" alt="A well-organized patient scheduling interface on a tablet, employing a clean table format to display appointment data. A prominent search bar and filter options are visible, along with a clear '+ appointment' button for adding new entries." />
 
-- Conducting user research to understand needs and uphold usability standards.
-- Collaborating with stakeholders, aligning goals with Agile design and development.
-- Translating insights into user-friendly, regulation-compliant designs, iteratively improved in Agile cycles.
+## My Role
 
-<img src="/images/case-study-smartlab-3.png" class="transparent" alt="Construction Company project" />
+* Translated insights into user-friendly, compliant designs (iterative Agile).
+* User research for needs and usability.
+* Stakeholder collaboration, aligning goals and limitations.
 
-## Features of the designs
-The key design features include:
-- Large tap targets and streamlined interactions for ease of use with gloves and other environmental limitations.
-- Clear typography for viewing from a distance and legibility through lead glass.
-- We've implemented a design system to ensure consistency across our company's products.
+<img src="/images/case-study-smartlab-3.png" class="transparent" alt="A focused view of a tablet interface with a user-friendly design for radiopharmaceutical dose preparation. The screen features a balanced arrangement of information with clear visual hierarchy and a prominent 'Finish and next' button." />
 
-## A Continuing Success Story
-Smartlab aims to significantly reduced human error in nuclear medicine, enhancing operational safety and reliability. User feedback highlights the platform's efficiency and innovation, marking a notable advancement over traditional systems.
+## Key Design Features
 
-<img src="/images/case-study-smartlab-5.jpg" alt="Construction Company project" />
+* Large tap targets, streamlined interactions (gloved use).
+* Clear typography (distance viewing, lead glass legibility).
+* Implemented a company-wide design system for consistency.
+
+## Impact
+
+Aims to reduce human error, enhancing safety and reliability in nuclear medicine. Positive user feedback on efficiency and innovation.
+
+<img src="/images/case-study-smartlab-5.jpg" alt="A brightly lit, sterile cleanroom featuring a large, silver and glass radiopharmacy isolator as the central visual element. Workstations with computer screens flank the isolator, creating a sense of a controlled and high-tech environment." />
 
 ***
-- [Hotel – Elevating Guest Experience through IoT Integration](/portfolio/hotel/)
 - [Construction - Making construction measurement management digital](/portfolio/construction/)
+- [Hotel – Elevating Guest Experience through IoT Integration](/portfolio/hotel/)
