@@ -4,15 +4,14 @@
   "description": "Personal one-page website built with Eleventy",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
-    "dev": "concurrently \"npm run start\""
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.0",
-    "concurrently": "^8.2.2"
+    "clean-css": "^5.3.3"
   },
   "dependencies": {
     "jsdom": "^26.1.0",
