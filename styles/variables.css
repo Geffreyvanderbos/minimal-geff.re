@@ -27,21 +27,9 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
+    :root {
         --color-background-hsl: 0, 0%, 10%;
         --color-text-hsl: 0, 0%, 90%;
         --color-text-rgb: 229, 229, 229;
     }
-}
-
-:root[data-theme="dark"] {
-    --color-background-hsl: 0, 0%, 10%;
-    --color-text-hsl: 0, 0%, 90%;
-    --color-text-rgb: 229, 229, 229;
-}
-
-:root[data-theme="light"] {
-    --color-background-hsl: 0, 0%, 98%;
-    --color-text-hsl: 0, 0%, 20%;
-    --color-text-rgb: 20, 20, 20;
 }
