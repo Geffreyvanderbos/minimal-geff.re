@@ -122,6 +122,32 @@ s {
     );
 }
 
+ul {
+    margin: var(--baseline) 0;
+    padding-left: 1.5em;
+    list-style: disc;
+}
+
+ul ul {
+    margin: 0;
+}
+
+li {
+    margin: calc(var(--baseline) / 8);
+    padding: 0;
+    line-height: var(--baseline);
+}
+
+li > ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li::marker {
+    color: hsla(var(--color-text-hsl), 0.4);
+    font-size: 0.8em;
+}
+
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"])
         a[href^="http"]:not([href*="geff.re"])::after {

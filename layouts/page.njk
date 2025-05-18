@@ -8,7 +8,6 @@
      <meta name="description" content="Product designer and music science writer.">
     <link rel="stylesheet" href="{{ '/styles/index.css' | url }}">
     <link rel="icon" href="{{ '/images/favicon.png' | url }}">
-    <script src="/scripts/theme.js" defer></script>
 
 </head>
 <body>
@@ -17,7 +16,9 @@
     </a>
     <main id="content">
         {{ content | safe }}
+    {% if page.url != '/sitemap/' %}
+        <div class="sitemap-link">└─ <a href="/sitemap" title="navigate the site using the sitemap">Sitemap</a></div>
+    {% endif %}
     </main>
-
 </body>
 </html>

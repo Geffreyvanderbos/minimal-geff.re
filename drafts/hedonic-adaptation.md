@@ -1,51 +1,57 @@
 ---
-title: hedonic adaption
+title: Stepping off the hedonic treadmill – why we are rarely satisfied
 layout: page
-inNav: false
---- 
+---
 
-# Introduction: Understanding the Hedonic Treadmill
+# Stepping off the hedonic treadmill – why we are rarely satisfied
 
-> **TL;DR:** The hedonic treadmill describes our tendency to adapt to positive and negative life changes, returning to baseline happiness levels. Understanding this phenomenon and its modern revisions is crucial for developing effective strategies to sustainably increase well-being. (12 sources)
+Humans have a tendency to adapt to positive or negative life changes. Always returning to their baseline happiness.
 
-The hedonic treadmill, originally proposed by Brickman and Campbell in 1971, describes a fundamental challenge to sustaining happiness: our tendency to adapt to both positive and negative life circumstances and return to a baseline level of well-being <Paper corpusId="156617580" paperTitle="(Kieling et al., 2016)" isShortName></Paper>. This phenomenon explains why the joy of a new purchase, promotion, or achievement often fades surprisingly quickly, requiring continuous stimulation to maintain hedonic well-being <Paper corpusId="255933921" paperTitle="(George et al., 2023)" isShortName></Paper> <Paper corpusId="16206976" paperTitle="(Diener et al., 2006)" isShortName></Paper>. The hedonic treadmill poses a significant obstacle to maintaining benefits associated with positive experiences, as individuals adapt to these conditions and revert to previous emotional states <Paper corpusId="143557751" paperTitle="(Schutte et al., 2015)" isShortName></Paper> <Paper corpusId="16206976" paperTitle="(Diener et al., 2006)" isShortName></Paper>.
+This tendency–what Brickman and Campbell (1971) call *hedonic adaptation*–explains why the joy of a new purchase, promotion, or achievement often fades surprisingly quickly.
 
-While this adaptation mechanism has traditionally fostered scientific pessimism about our ability to increase happiness long-term <Paper corpusId="8231355" paperTitle="(Lopes et al., 2016)" isShortName></Paper> <Paper corpusId="6705969" paperTitle="(Lyubomirsky et al., 2005)" isShortName></Paper>, recent research has necessitated important revisions to the model. Diener and colleagues identified five key updates:
-1. most individuals have a positive rather than neutral baseline, 
+And I struggle with it continously.
+
+As I write this, I have this nagging thought that “I should move closer to a city; that’ll make me happier”. Knowing full well that once I’ve moved, I’d be hunting down the next thing that *might make me happier*.
+
+Although the hedonic treadmill alone gives us a rather pessimistic outlook, recent research updated the model with some positive elements:
+1. most individuals have a positive rather than neutral baseline,
 2. set points vary between individuals based on personality factors,
-3. people have multiple happiness set points across different life domains, 
-4. adaptation rates differ between individuals, and 
-5. people can learn skills to sustainably enhance well-being <Paper corpusId="7122169" paperTitle="(Sprangers et al., 2008)" isShortName></Paper> <Paper corpusId="16206976" paperTitle="(Diener et al., 2006)" isShortName></Paper>. 
+3. people have multiple happiness set points across different life domains,
+4. adaptation rates differ between individuals, and
+5. people can learn skills to sustainably enhance well-being.
 
-These revisions offer hope for those seeking to overcome hedonic adaptation.
+The last point offers hope and begs the question: *what skills can I learn  to overcome hedonic adaptation?*
 
-The mechanism behind this phenomenon involves contrasting current experiences against previous ones and adjusting aspirations accordingly <Paper corpusId="7955489" paperTitle="(Zyphur et al., 2015)" isShortName></Paper> <Paper corpusId="11245848" paperTitle="(Easterlin, 2003)" isShortName></Paper>. For example, when income increases, happiness temporarily rises as we compare new income to previous levels and consume new goods and services. However, as we adapt to these changes, we adjust our aspirations upward—a "preference drift"—limiting long-term happiness gains <Paper corpusId="7955489" paperTitle="(Zyphur et al., 2015)" isShortName></Paper> <Paper corpusId="18544108" paperTitle="(Easterlin, 2001)" isShortName></Paper>.
+## Intentionally do positive activities
+When our salary increases, our happiness goes up temporarily. However, once we adapt to being able to spend more, we adjust our aspirations upward–we want more.
 
-Crucially, research now suggests that despite this adaptation process, intentional positive activities can meaningfully increase well-being. Meta-analyses of positive psychology interventions show significant improvements in happiness and reductions in depressive symptoms <Paper corpusId="8231355" paperTitle="(Lopes et al., 2016)" isShortName></Paper> <Paper corpusId="6823410" paperTitle="(Sin et al., 2009)" isShortName></Paper>. Strategies such as expressing gratitude, practicing optimistic thinking, replaying positive experiences, and socializing have demonstrated effectiveness, particularly when participants knowingly select into these activities and commit to them over time <Paper corpusId="8231355" paperTitle="(Lopes et al., 2016)" isShortName></Paper> <Paper corpusId="7476527" paperTitle="(Lyubomirsky et al., 2011)" isShortName></Paper>.
+This *preference drift* makes it really hard to gain long-term happiness.
+
+Yet, research suggests that despite the adaptation process, intentional positive activities can still help increase well-being and reducing depressive symptoms.
+
+Positive strategies can be: 
+- expressing gratitude
+- practicing optimistic thinking
+- replaying positive experiences
+- socialising
+
+The effects are especially strong when you knowlingly commit to these activities.
+
+## Mindfulness, Gratitude and Appreciation
+Mindfulness, as part of the Hedonic Adaptation Prevent Mode, fights adaptation by allowing us to focus on what we already have. The act of noticing, focusing on, and valuing what we possess can disrupt the psychological process of taking things for granted.
+
+When you are in a more mindful state, you reduce your impulsitivity. You start devalue future rewards which leads to more balanced decision-making.
+
+A proactive orientation–like turning off your phone while enjoying something–also helps us enjoy the hedonic activities without being disrupted by instrusive thoughts about competing goals or responsibilities.
 
 ---
 
-# Mindfulness and Awareness Strategies
+# 3. Gratitude and Appreciation Practices
+Gratitude and appreciation practices represent powerful strategies for counteracting hedonic adaptation by shifting attention from what is missing to what is present in one's life. 
 
-> **TL;DR:** Mindfulness and awareness techniques help overcome hedonic adaptation by bringing conscious attention to pleasurable experiences and enabling better self-regulation. These strategies include mindful eating, self-monitoring, and attention-focusing practices that can increase enjoyment while reducing impulsive behaviors. (16 sources)
+This approach explicitly disrupts the psychological process that leads people to take positive circumstances for granted—a key driver of hedonic adaptation. 
 
-Mindfulness practices offer powerful tools for counteracting hedonic adaptation by redirecting attention to what one has rather than what one lacks. The simple act of noticing, focusing on, and valuing what one possesses can disrupt the psychological process of taking circumstances for granted, allowing individuals to experience familiar pleasures "afresh" <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper>. This aligns with the Hedonic Adaptation Prevention Model, which highlights appreciation as a key pathway for avoiding hedonic adaptation <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper>.
-
-Self-monitoring—the intentional and consistent observation of one's own behavior—represents one of the best-studied attentional strategies for behavioral change <Paper corpusId="232165095" paperTitle="(Frates et al., 2020)" isShortName></Paper> <Paper corpusId="144979719" paperTitle="(Snyder, 1974)" isShortName></Paper>. This practice has demonstrated effectiveness across multiple domains, including weight management, alcohol consumption reduction, and physical activity promotion <Paper corpusId="232165095" paperTitle="(Frates et al., 2020)" isShortName></Paper> <Paper corpusId="26003650" paperTitle="(Helzer et al., 2002)" isShortName></Paper> <Paper corpusId="27517316" paperTitle="(Kang et al., 2009)" isShortName></Paper> <Paper corpusId="6709437" paperTitle="(Turner-McGrievy et al., 2013)" isShortName></Paper>. A meta-analysis revealed that self-monitoring interventions reliably enhance goal attainment, particularly when the monitoring is public and physically recorded <Paper corpusId="11303960" paperTitle="(Harkin et al., 2016)" isShortName></Paper>.
-
-Mindfulness-based approaches have shown particular promise in reducing impulsivity and delay discounting—tendencies that often undermine long-term well-being in favor of immediate pleasures <Paper corpusId="237330285" paperTitle="(Heilman et al., 2021)" isShortName></Paper> <Paper corpusId="195798473" paperTitle="(Scholten et al., 2019)" isShortName></Paper>. These interventions can reduce the tendency to devalue future rewards, potentially leading to more balanced decision-making <Paper corpusId="52092273" paperTitle="(Rung et al., 2018)" isShortName></Paper>. Practical applications include mindful eating programs that help individuals become more aware of hunger cues and eating habits, promoting a healthier relationship with food <Paper corpusId="277356228" paperTitle="(Koc et al., 2025)" isShortName></Paper>.
-
-In the context of food consumption, mindful eating strategies focusing on sensory properties have demonstrated multiple benefits. Studies show that directing attention toward the multisensory pleasure of eating (taste, smell, and texture) can increase enjoyment while reducing calorie consumption of unhealthy foods <Paper corpusId="229351224" paperTitle="(Bedard et al., 2020)" isShortName></Paper>. Similarly, bringing full attention to the sensory experience of eating has been shown to enhance food enjoyment across different food types <Paper corpusId="229351224" paperTitle="(Bedard et al., 2020)" isShortName></Paper>.
-
-Beyond reactive strategies, proactive approaches can also enhance hedonic well-being. Recent developments in self-control research suggest that changing situations to prevent conflicts before they arise (such as turning off one's phone during leisure time) may be more effective than relying on willpower alone <Paper corpusId="259457806" paperTitle="(Becker et al., 2023)" isShortName></Paper> <Paper corpusId="46455659" paperTitle="(Duckworth et al., 2016)" isShortName></Paper>. This proactive orientation helps individuals enjoy hedonic activities without being disrupted by intrusive thoughts about competing goals or responsibilities <Paper corpusId="220798124" paperTitle="(Bernecker et al., 2020)" isShortName></Paper> <Paper corpusId="145095444" paperTitle="(Grund et al., 2014)" isShortName></Paper>.
-
----
-
-# Gratitude and Appreciation Practices
-
-> **TL;DR:** Gratitude practices disrupt hedonic adaptation by directing conscious attention to what one has rather than what one lacks, helping individuals see familiar pleasures "afresh." Research shows that gratitude interventions like journaling and life review activities can sustainably increase psychological well-being and reduce depressive symptoms. (9 sources)
-
-Gratitude and appreciation practices represent powerful strategies for counteracting hedonic adaptation by shifting attention from what is missing to what is present in one's life. This approach explicitly disrupts the psychological process that leads people to take positive circumstances for granted—a key driver of hedonic adaptation. By consciously noticing, focusing on, and valuing what one has, individuals can experience familiar pleasures with renewed appreciation, essentially seeing them "afresh" <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper>. This aligns with the Hedonic Adaptation Prevention Model, which specifically identifies appreciation as a critical pathway for avoiding hedonic adaptation <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper> <Paper corpusId="142509693" paperTitle="(Sheldon et al., 2013)" isShortName></Paper>.
+By consciously noticing, focusing on, and valuing what one has, individuals can experience familiar pleasures with renewed appreciation, essentially seeing them "afresh" <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper>. This aligns with the Hedonic Adaptation Prevention Model, which specifically identifies appreciation as a critical pathway for avoiding hedonic adaptation <Paper corpusId="149842782" paperTitle="(Fagley, 2018)" isShortName></Paper> <Paper corpusId="142509693" paperTitle="(Sheldon et al., 2013)" isShortName></Paper>.
 
 Several effective gratitude interventions have been developed and validated through research. Narrative methods such as gratitude journals allow individuals to systematically document things they appreciate, creating a sense of abundance <Paper corpusId="204388135" paperTitle="(Simons et al., 2019)" isShortName></Paper> <Paper corpusId="14411700" paperTitle="(Lambert et al., 2012)" isShortName></Paper>. Similarly, life review interventions that incorporate gratitude and appreciation elements have shown effectiveness in improving psychological well-being <Paper corpusId="204388135" paperTitle="(Simons et al., 2019)" isShortName></Paper> <Paper corpusId="38756731" paperTitle="(Korte et al., 2011)" isShortName></Paper>. These approaches may help defy the hedonic treadmill by redirecting attention to existing sources of happiness rather than constantly seeking new ones <Paper corpusId="204388135" paperTitle="(Simons et al., 2019)" isShortName></Paper> <Paper corpusId="19773376" paperTitle="(Davis et al., 2016)" isShortName></Paper>.
 
@@ -124,3 +130,8 @@ Despite scientific pessimism about our ability to increase happiness—based on 
 A balanced approach to well-being recognizes that hedonic adaptation isn't inherently negative—it's an adaptive mechanism that allows us to respond to changing circumstances. The challenge lies in engaging with both hedonic and eudaimonic pursuits intentionally, understanding that sustainable happiness comes not from maximizing pleasure or meaning in isolation, but from their thoughtful integration across life domains <Model name="Anthropic" version="claude-3-7-sonnet-20250219">.
 
 ---
+
+---
+Annotations: 0,21607 SHA-256 e7360bb13f091986f4f530b2c2568fb6  
+@Geffrey: 454,4 491,15 600,18 704 1180,5 1221 1227,19 1278,2 1281,571 1853,81 1936 1950,648 2602 2605,3 2826,2 2985,2  
+...

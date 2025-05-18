@@ -13,11 +13,7 @@ See my [portfolio](/portfolio) for projects I've worked on.
 
 I spend my spare time learning about music science and sharing my findings on [Substack](https://geffrey.substack.com).
 
-These past months I've been focused on becoming a better writer.
-
 Want to connect? Hit me up on [Signal](https://signal.me/#eu/ctlD__2i3DbpPnd4CRwgxIbCMTPOCwvD7chjLP77QNsQsUEeDLBPz7-3iq0tz7UC).
 
 ***
-[What happened to the previous website?](/longevity)
-
-Switch site to <a href="#" class="toggle-theme" data-dark-text="light mode">dark mode</a>.
+- [What happened to the previous website?](/longevity)

@@ -13,5 +13,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.0",
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0",
+    "pretty": "^2.0.0"
   }
 }

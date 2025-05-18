@@ -1,14 +1,16 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
-  eleventyConfig.addPassthroughCopy("scripts");
   eleventyConfig.addPassthroughCopy("images");
+
+  // Enable HTML pretty printing (indentation)
+  eleventyConfig.addTransform("pretty", require("./utils/pretty"));
 
   return {
     dir: {
       input: ".",
       output: "_site",
-      includes: "_includes",
-      layouts: "_layouts",
+      includes: "includes",
+      layouts: "layouts",
     },
     templateFormats: ["njk", "md", "html"],
     markdownTemplateEngine: "njk",
