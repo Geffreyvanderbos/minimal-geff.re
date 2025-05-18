@@ -1,30 +1,23 @@
 # minimal-geff.re
 
-A minimalist personal website built with [Eleventy](https://www.11ty.dev/). The site features a clean, typography-focused design with dark mode support and a custom black metal-style logo.
+A minimalist personal website built with [Eleventy](https://www.11ty.dev/).
 
 ## Project Structure
 
 ```
 minimal-geff.re/
-├── _includes/         # Template partials and SVG components
-├── _layouts/          # Page layouts (page.njk)
 ├── _site/            # Generated site output
-├── fonts/            # Custom web fonts
+├── content/          # All content pages in Markdown
+│   ├── drafts/       # Draft content
+│   └── portfolio/    # Portfolio content
 ├── images/           # Site images and assets
-├── *.md              # Content pages in Markdown
+├── includes/         # Template partials and SVG components
+├── layouts/          # Page layouts (page.njk)
+├── styles/           # CSS stylesheets
+├── utils/            # JavaScript utilities
 ├── .eleventy.js      # Eleventy configuration
-├── package.json      # Project dependencies
-└── style.css         # Site-wide styles
+└── package.json      # Project dependencies
 ```
-
-## Content Pages
-
-- `index.md` - Homepage
-- `resume.md` - Professional experience and skills
-- `hedonic-adaption.md` - Article about hedonic adaptation
-- `my-obsidian-setup.md` - Obsidian setup guide
-- `notetaking.md` - Note-taking methodology
-- `testimonials.md` - Professional testimonials
 
 ## Development
 
@@ -47,21 +40,24 @@ npm install
 
 ### Technology Stack
 
-- [Eleventy](https://www.11ty.dev/) v2.0.1 - Static site generator
+- [Eleventy](https://www.11ty.dev/) v3.1.0 - Static site generator
 - Nunjucks (.njk) - Templating engine
 - Markdown - Content authoring
 - CSS - Custom styling with dark mode support
+- jsdom - DOM manipulation for static site generation
+- pretty - HTML formatting
 
 ## Deployment
 
-The site is built into the `_site` directory, which can be deployed to any static hosting service.
+The site is built into the `_site` directory, which can be deployed to any static hosting service. Currently, the site is hosted on [Vercel](https://vercel.com/), which provides surprisingly seamless deployment from Git repositories.
 
 ## Customization
 
 - `.eleventy.js` - Configure Eleventy settings and add plugins
-- `style.css` - Modify site-wide styles
-- `_layouts/page.njk` - Edit main page template
-- `_includes/` - Add or modify template partials
+- `styles/` - Modify site-wide styles
+- `layouts/page.njk` - Edit main page template
+- `includes/` - Add or modify template partials
+- `utils/` - Utility functions for site generation
 
 ## Features
 
