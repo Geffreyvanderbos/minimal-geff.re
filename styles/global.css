@@ -149,8 +149,7 @@ li::marker {
 }
 
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"])
-        a[href^="http"]:not([href*="geff.re"])::after {
+    a[href^="http"]:not([href*="geff.re"])::after {
         background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M13 5H19V11"/%3E%3Cpath d="M19 5L5 19"/%3E%3C/svg%3E')
             no-repeat center;
     }
@@ -179,34 +178,34 @@ li::marker {
 ::view-transition-new(blur) {
     animation: fade-in 0.6s cubic-bezier(0.76, 0, 0.24, 1) forwards;
     opacity: 0;
-    filter: blur(2px);
+    /* filter: blur(2px); */
 }
 
 @keyframes fade-out {
     0% {
         opacity: 1;
-        filter: blur(0px);
+        /* filter: blur(0px); */
     }
     80% {
         opacity: 0;
     }
     100% {
         opacity: 0;
-        filter: blur(2px);
+        /* filter: blur(2px); */
     }
 }
 
 @keyframes fade-in {
     0% {
         opacity: 0;
-        filter: blur(2px);
+        /* filter: blur(2px); */
     }
     60% {
         opacity: 1;
     }
     100% {
         opacity: 1;
-        filter: blur(0);
+        /* filter: blur(0); */
     }
 }
 

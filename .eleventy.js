@@ -7,10 +7,10 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: ".",
+      input: "content",
       output: "_site",
-      includes: "includes",
-      layouts: "layouts",
+      includes: "../includes",
+      layouts: "../layouts",
     },
     templateFormats: ["njk", "md", "html"],
     markdownTemplateEngine: "njk",
