@@ -7,18 +7,10 @@
     --font-family: system-ui, sans-serif;
 
     --shadow-color: 0deg 0% 0%;
-    --shadow-elevation-low:
-        0px 1px 1.2px hsl(var(--shadow-color) / 0.09),
-        0px 3.7px 4.6px -1.7px hsl(var(--shadow-color) / 0.13);
     --shadow-elevation-medium:
         0px 1px 1.2px hsl(var(--shadow-color) / 0.09),
         0px 5.3px 6.6px -0.9px hsl(var(--shadow-color) / 0.11),
         0.1px 18.6px 23px -1.7px hsl(var(--shadow-color) / 0.14);
-    --shadow-elevation-high:
-        0px 1px 1.2px hsl(var(--shadow-color) / 0.12),
-        0px 13.4px 16.6px -0.6px hsl(var(--shadow-color) / 0.15),
-        0.1px 35.4px 43.8px -1.2px hsl(var(--shadow-color) / 0.17),
-        0.3px 86px 106.4px -1.7px hsl(var(--shadow-color) / 0.2);
 
     box-sizing: border-box;
     -moz-text-size-adjust: none;
