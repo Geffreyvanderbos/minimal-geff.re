@@ -1,11 +1,19 @@
 const fs = require("fs");
 const path = require("path");
 const CleanCSS = require("clean-css");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
 
-  // Function to bundle CSS files
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: false,
+  };
+  console.log("MarkdownIt options:", options);
+  eleventyConfig.setLibrary("md", markdownIt(options));
+
   function bundleCSS() {
     const cssDir = path.join(__dirname, "styles");
     const cssFiles = [
@@ -34,10 +42,8 @@ module.exports = function (eleventyConfig) {
     fs.writeFileSync(path.join(outputDir, "style.css"), bundledCSS);
   });
 
-  // Enable HTML pretty printing (indentation)
   eleventyConfig.addTransform("pretty", require("./utils/pretty"));
 
-  // Watch CSS files for changes
   eleventyConfig.addWatchTarget("styles");
 
   return {
@@ -47,8 +53,7 @@ module.exports = function (eleventyConfig) {
       includes: "../includes",
       layouts: "../layouts",
     },
-    templateFormats: ["njk", "md", "html"],
-    markdownTemplateEngine: "njk",
+    templateFormats: ["md", "njk", "html"],
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
   };

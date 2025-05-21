@@ -6,6 +6,12 @@ main {
     max-width: 66ch;
 }
 
+@media (min-width: 768px) {
+    main {
+        padding: calc(6 * var(--baseline)) var(--baseline);
+    }
+}
+
 main::after,
 main::before {
     content: "";

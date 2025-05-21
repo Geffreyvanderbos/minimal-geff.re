@@ -3,7 +3,8 @@
     --color-text-hsl: 0, 0%, 20%;
     --color-text-rgb: 20, 20, 20;
     --paragraph-bottom-margin: 1.25rem;
-    --baseline: 1.6rem;
+    --text-size: 15px;
+    --baseline: 1.8rem;
     --font-family: system-ui, sans-serif;
 
     --shadow-color: 0deg 0% 0%;

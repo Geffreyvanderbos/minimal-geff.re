@@ -7,8 +7,8 @@ layout: page
 
 # Smartlab: Efficient Radiopharmacy Workflow
 
-Company: Comecer Netherlands<br>
-Role: Product Owner / Designer<br>
+Company: Comecer Netherlands
+Role: Product Owner / Designer
 Date: 2022 - 2024
 ***
 

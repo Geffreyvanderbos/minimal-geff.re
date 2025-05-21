@@ -8,8 +8,8 @@ layout: page
 
 # Making construction measurement management digital
 
-Company: Bitfactory GmbH<br>
-Role: Lead Designer<br>
+Company: Bitfactory GmbH
+Role: Lead Designer
 Date: 2019 - 2021
 
 ***

@@ -7,8 +7,8 @@ layout: page
 
 # Success Hotel Group - IoT for Better Guest Experience
 
-Company: Bitfactory GmbH<br>
-Role: Product Designer / UI Designer<br>
+Company: Bitfactory GmbH
+Role: Product Designer / UI Designer
 Date: 2019 - 2021
 
 ***

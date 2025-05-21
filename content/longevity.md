@@ -8,6 +8,8 @@ I’ve enjoyed sharing snippets and thoughts through my microblogging site.
 
 It’s been a fun space and I learned a lot while programming it.
 
+
+
 However, maintaining a relatively complex website had become a demanding task. The constant need for updates, troubleshooting, and the sheer volume of potential content felt like it was pulling me away from the core reason I started a blog: To learn, write and share.
 
 I’ve made the decision to step away from the microblog and replace it with a future-oriented one: an *evergreen* website built on Markdown and an extremely simple [Eleventy](https://www.11ty.dev/) setup.

@@ -7,6 +7,8 @@ layout: page
 
 Product designer, music science writer, and practitioner of [linked note-taking](/notetaking).
 
+This is a new paragraph.
+
 Currently designing for Stichting NSR. Previously, held the role of product owner for Comecer. Find [my resume here](/resume).
 
 See my [portfolio](/portfolio) for projects I've worked on.

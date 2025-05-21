@@ -9,6 +9,12 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+@media (min-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+}
+
 ::selection {
     background-color: hsla(var(--color-text-hsl), 0.99);
     color: hsl(var(--color-background-hsl));
@@ -20,22 +26,27 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 500;
+    font-weight: normal;
     font-size: 1rem;
     padding-top: calc(1.5 * var(--baseline));
-    padding-bottom: calc(0.5 * var(--baseline));
+    padding-bottom: calc(0.7 * var(--baseline));
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip: none;
+    text-underline-offset: 0.6em;
 }
 
 h1 + h2 {
     margin-top: var(--baseline);
 }
 
-p {
-    letter-spacing: -0.003rem;
-}
-
 p + p {
     margin-top: var(--baseline);
+}
+
+strong {
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 blockquote {

@@ -8,14 +8,13 @@ layout: page
 10+ years as Product Designer, Owner, and Manager. Selected projects below.
 
 <a href="/portfolio/smartlab/"><img src="/images/case-study-smartlab-ui.jpg" class="image-transition-1" alt="Construction Company project">Smartlab</a>
-<br>Next-Gen radiopharmacy workflow management
-<br><br>
+Next-Gen radiopharmacy workflow management
 
-<a href="/portfolio/construction/"><img src="/images/case-study-construction-ui.jpg" class="image-transition-2" alt="Construction Company project">Construction</a><br>
+<a href="/portfolio/construction/"><img src="/images/case-study-construction-ui.jpg" class="image-transition-2" alt="Construction Company project">Construction</a>
 Streamlining construction measurement & communication
-<br><br>
 
-<a href="/portfolio/hotel/"><img src="/images/case-study-mkey-ui.jpg" class="image-transition-3" alt="Construction Company project">Hotel</a><br>
+
+<a href="/portfolio/hotel/"><img src="/images/case-study-mkey-ui.jpg" class="image-transition-3" alt="Construction Company project">Hotel</a>
 Improving hotel guest experience with IoT
 
 ***
@@ -61,7 +60,7 @@ App for Daimler dealers & customers to facilitate used car sales.
 
 ### KLEVERBILL
 Requirements & initial UI design for dunning & receivables management.
-- Associated with: Bitfactory GmbH<br>
+- Associated with: Bitfactory GmbH
 - Role: Product Owner/Designer
 
 ### Mobile Service App – Karl Storz
@@ -76,7 +75,7 @@ First fully visually designed mobile fitness app (complex conditional UIs).
 
 ### Recaro eGaming AR app
 AR preview app for gaming chairs (usability & UI design).
-- Associated with: Bitfactory GmbH <br>
+- Associated with: Bitfactory GmbH
 - Role: UI/UX Designer
 
 ### Viasto Mobile Videointerview App
