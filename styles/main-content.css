@@ -12,37 +12,6 @@ main {
     }
 }
 
-main::after,
-main::before {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: calc(3 * var(--baseline));
-    position: fixed;
-    z-index: 2;
-    left: 0;
-    pointer-events: none;
-    view-transition-name: none;
-}
-
-main::before {
-    top: 0;
-    background: linear-gradient(
-        to top,
-        hsla(var(--color-background-hsl), 0) 0%,
-        hsla(var(--color-background-hsl), 1) 100%
-    );
-}
-
-main::after {
-    bottom: 0;
-    background: linear-gradient(
-        to bottom,
-        hsla(var(--color-background-hsl), 0) 0%,
-        hsla(var(--color-background-hsl), 1) 100%
-    );
-}
-
 main img {
     position: relative;
     left: 50%;
