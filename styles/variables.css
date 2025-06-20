@@ -1,7 +1,6 @@
 :root {
-    --color-background-hsl: 0, 0%, 98%;
-    --color-text-hsl: 0, 0%, 20%;
-    --color-text-rgb: 20, 20, 20;
+    --color-background-hsl: 150, 10%, 90%;
+    --color-text-hsl: 150, 50%, 10%;
     --paragraph-bottom-margin: 1.25rem;
     --text-size: 15px;
     --baseline: 1.8rem;
@@ -21,8 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-background-hsl: 0, 0%, 10%;
-        --color-text-hsl: 0, 0%, 90%;
-        --color-text-rgb: 229, 229, 229;
+        --color-background-hsl: 150, 15%, 6%;
+        --color-text-hsl: 150, 15%, 90%;
     }
 }

@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
       path.join(cssDir, "variables.css"),
       path.join(cssDir, "global.css"),
       path.join(cssDir, "main-content.css"),
+      path.join(cssDir, "forms.css"),
     ];
 
     let bundledCSS = "";
